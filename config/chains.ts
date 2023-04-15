@@ -29,4 +29,22 @@ export const chains: ChainMap<ChainMetadata> = {
       },
     ],
   },
+  scroll: {
+    name: 'scroll',
+    chainId: 534353,
+    publicRpcUrls: [
+      {
+        http: 'https://alpha-rpc.scroll.io/l2',
+      },
+    ],
+  },
+  sepolia: {
+    name: 'sepolia',
+    chainId: 11155111,
+    publicRpcUrls: [
+      {
+        http: 'https://rpc.sepolia.dev',
+      },
+    ],
+  }
 };
